@@ -15,7 +15,7 @@ export default function SectionTwo() {
 
   return (
     <div className="container mx-auto my-[32px] w-full h-full" data-aos="fade-up">
-      <div className="flex w-full">
+      <div className="flex flex-col lg:flex-row w-full">
         <div className="flex w-full items-center justify-center" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
           <img
             src={sectiontwoimg}
