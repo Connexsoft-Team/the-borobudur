@@ -96,3 +96,23 @@
   width: 100%;
   height: 100vh;
 }
+
+/* Animasi muncul */
+.section-two-img.show {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+.section-two-text.show {
+  transform: translateY(0);
+  transition: transform 0.5s ease;
+}
+
+/* Animasi hilang */
+.section-two-img.hide {
+  opacity: 0;
+}
+
+.section-two-text.hide {
+  transform: translateY(-100%);
+}
