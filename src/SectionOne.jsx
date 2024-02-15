@@ -1,11 +1,12 @@
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import './App.css'
+import SectionTwo from './SectionTwo'
 
 function SectionOne() {
 
   return (
     <div className='container mx-auto w-full h-full'>
-      <Parallax pages={2} style={{ top: '0', left: '0' }} className="">
+      <Parallax pages={10} style={{ top: '0', left: '0' }} className="">
 
           <ParallaxLayer offset={0} speed={0.25}>
             {/* <img src={borobudur} className='h-screen w-full object-cover' /> */}
@@ -18,8 +19,13 @@ function SectionOne() {
           <ParallaxLayer offset={0} speed={0}>
             <div className='flex justify-center items-center h-screen'>
               <div>
-                <p className="font-bold text-9xl title-color">BOROBUDUR</p>
+                <p className="font-bold text-9xl mx-auto title-color transition">BOROBUDUR</p>
               </div>
+            </div>
+          </ParallaxLayer>
+          <ParallaxLayer offset={1} speed={0.25} style={{ }}>
+            <div className='flex justify-center items-center h-screen'>
+              <SectionTwo></SectionTwo>
             </div>
           </ParallaxLayer>
 
