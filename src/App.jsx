@@ -1,6 +1,4 @@
-import SectionSix from "./SectionSix";
-import SectionThree from "./SectionThree";
-import SectionTwo from "./SectionTwo";
+import SectionOne from "./SectionOne";
 
 function App() {
   return (
