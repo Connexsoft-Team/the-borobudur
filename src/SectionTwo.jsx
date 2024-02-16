@@ -3,6 +3,8 @@ import sectiontwoimg from "./assets/sectiontwoimg.png"
 import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
+
+
 export default function SectionTwo() {
  
   useEffect(() => {

@@ -4,12 +4,11 @@ import SectionTwo from "./SectionTwo";
 
 function App() {
   return (
-    <>
-      <SectionTwo />
-      <SectionThree/>
-      <SectionSix />
-    </>
-  );
+    <div className='App'>
+    <SectionOne/>
+    {/* <SectionTwo/> */}
+    </div>
+  )
 }
 
 export default App;
