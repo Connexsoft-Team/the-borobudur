@@ -4,5 +4,11 @@ body {
   margin: 0;
 }
 
+:root {
+  --primary: #232122;
+  --secondary: #E4E1D4;
+}
 
-
+.title-color {
+  color: var(--secondary);
+}
