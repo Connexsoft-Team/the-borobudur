@@ -16,24 +16,44 @@ function SectionOne() {
           <div className="animation_layer parallax" id="artcrop"></div>
           {/* <img src={cropBorobudur} className='h-screen w-full object-cover' /> */}
         </ParallaxLayer>
-        <ParallaxLayer offset={0} speed={0}>
-          <div className="flex justify-center items-center h-screen">
+        <ParallaxLayer offset={0} speed={0.4}>
+          <div className='flex justify-between flex-col items-center h-screen p-8'>
+            <div className='w-full flex justify-between'>
+              <h1 className="">dsaijdsi</h1>
+              <div className="flex gap-4 title-color">
+                <p className="text-base font-bold leading-none text-gray-9"> Home </p>
+                <p className="text-base font-bold leading-none text-gray-9"> Teams </p>
+              </div>
+            </div>
             <div>
-              <p className="font-bold text-9xl mx-auto title-color transition">
-                BOROBUDUR
-              </p>
+              <p className="font-bold xl:text-9xl text-7xl   mx-auto title-color transition">BOROBUDUR</p>
+            </div>
+            <div className='flex justify-between w-full '>
+              <div className='flex-1 text-start items-start'>
+                <h1 className="title-color">-7.607355, 110.203804</h1>
+              </div>
+              <div className='flex-1 text-center justify-center items-center '>
+                <h1 className="title-color">Scroll Down</h1>
+                <div className='w-full justify-center items-center flex pt-1'>
+                  <div className="w-[1px] bg-white/50 h-6 "></div>
+                </div> </div> <div className='flex-1 text-end'>
+                <h1 className="title-color">Indonesia</h1>
+              </div>
             </div>
           </div>
         </ParallaxLayer>
+
+
         <ParallaxLayer offset={1} speed={0.25} style={{}}>
           <div className="flex justify-center items-center h-screen">
             <SectionTwo></SectionTwo>
           </div>
         </ParallaxLayer>
+        
         <ParallaxLayer offset={2} speed={0.25} style={{}}>
           <SectionLevelBorobudur></SectionLevelBorobudur>
         </ParallaxLayer>
-        <ParallaxLayer offset={3} speed={0.25} style={{}}>
+        <ParallaxLayer offset={4} speed={0.25} style={{}}>
           <SectionSix />
         </ParallaxLayer>
       </Parallax>

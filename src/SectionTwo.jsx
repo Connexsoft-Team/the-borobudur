@@ -16,10 +16,10 @@ export default function SectionTwo() {
   }, []);
 
   return (
-    <div className="container mx-auto my-[32px] w-full h-full" data-aos="fade-up">
-      <div className="flex lg:flex-row flex-col px-[2rem] lg:px-[4rem] gap-8 items-center justify-between w-full">
+    <div className="container mx-auto my-[32px] px-8 w-full h-full" data-aos="fade-up">
+      <div className="flex lg:flex-row flex-col lg:px-8 gap-16 items-center justify-between w-full">
         <div className="flex w-full h-full items-center justify-center" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-          <div className="image-cover w-full h-1/2 lg:w-[515px] lg:h-[660px] object-cover rounded-[16px] overflow-hidden">
+          <div className="image-cover w-full h-1/2  lg:h-[660px] object-cover rounded-[16px] overflow-hidden">
              <img
                src={sectiontwoimg}
                alt="none"
