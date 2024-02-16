@@ -1,23 +1,43 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import visitthetemple from "./assets/visitthetemple.png";
 import compas from "./assets/compas.png";
 import telephone from "./assets/telephone.png";
 import time from "./assets/time.png";
 import envelope from "./assets/envelope.png";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+// import { useGSAP } from "@gsap/react";
 
 export default function SectionSix() {
+
+ useEffect(() => {
+  gsap.registerPlugin(ScrollTrigger);
+
+    gsap.to(".text-loc", {
+      opacity: 1,
+      // ease: "bounce",
+      scrollTrigger: {
+        trigger: ".gambar-b",
+        scrub: true,
+        markers: true,
+        start: "top center",
+        end:"bottom center",
+      }
+    });
+  }, []);
+
   return (
-    <div className="container mx-auto max-w-full w-full h-full">
+    <div className="container-1 h-[200vh] mx-auto max-w-full w-full ">
       <div className="flex flex-col justify-center items-center">
         <img
           src={visitthetemple}
           alt="none"
           className="w-[400px] h-[300px] object-cover"
         />
-        <span className="text-[48px] text-white font-bold mt-[32px]">
+        <span id="text1" className="text-[48px] text-white font-bold mt-[32px]">
           Visit The Temple
         </span>
-        <span className="text-[16px] text-[#E4E1D4] mb-[32px]">
+        <span className="text-[16px] text-[#E4E1D4] mb-[32px]" id="mulai">
           Begin your journey to Borobudur by following a few simple steps.
         </span>
         <div className="flex w-full gap-[32px] px-[64px]">
@@ -25,9 +45,9 @@ export default function SectionSix() {
             <img
               src={compas}
               alt="none"
-              className="w-[67px] h-[67px] object-cover"
+              className="gambar-b w-[67px] h-[67px] object-cover"
             />
-            <span className="text-[48px] text-white font-bold my-[16px]">
+            <span className="text-loc text-[48px] text-white font-bold my-[16px] opacity-0">
               Location
             </span>
             <span className="text-[16px] text-[#E4E1D4] text-center opacity-70">
@@ -74,18 +94,20 @@ export default function SectionSix() {
               enigmatic world of Borobudur.
             </span>
             <div className="flex flex-col gap-[16px] mt-[16px] items-center">
-            <span className="text-[16px] text-[#E4E1D4] font-bold">+62 811-2688-000</span>
-            <img
-              src={envelope}
-              alt="none"
-              className="w-[22px] h-[18px] object-cover"
-            />
-            <span className="text-[16px] text-[#E4E1D4] font-bold">
-              marketing@borobudurpark.co.id
-            </span>
-            <span className="text-[16px] text-[#E4E1D4] font-bold">
-              info@borobudurpark.co.id
-            </span>
+              <span className="text-[16px] text-[#E4E1D4] font-bold">
+                +62 811-2688-000
+              </span>
+              <img
+                src={envelope}
+                alt="none"
+                className="w-[22px] h-[18px] object-cover"
+              />
+              <span className="text-[16px] text-[#E4E1D4] font-bold">
+                marketing@borobudurpark.co.id
+              </span>
+              <span className="text-[16px] text-[#E4E1D4] font-bold">
+                info@borobudurpark.co.id
+              </span>
             </div>
           </div>
         </div>

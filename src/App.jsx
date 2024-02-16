@@ -1,15 +1,13 @@
-import './App.css'
-import SectionOne from './SectionOne';
+import SectionSix from "./SectionSix";
+import SectionTwo from "./SectionTwo";
 
 function App() {
-
   return (
-    <div className='App'>
-    <SectionOne/>
-    {/* <SectionTwo/> */}
-    {/* <SectionCoba></SectionCoba> */}
-    </div>
-  )
+    <>
+      {/* <SectionTwo /> */}
+      <SectionSix />
+    </>
+  );
 }
 
-export default App
+export default App;
