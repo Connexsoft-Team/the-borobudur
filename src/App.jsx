@@ -1,9 +1,10 @@
-import './App.css'
-import SectionOne from './SectionOne';
+import SectionSix from "./SectionSix";
+import SectionThree from "./SectionThree";
+import SectionTwo from "./SectionTwo";
 
 function App() {
-
   return (
+
     <div className='App'>
     <SectionOne/>
     {/* <SectionTwo/> */}
@@ -11,4 +12,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
