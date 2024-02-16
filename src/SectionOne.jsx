@@ -2,6 +2,8 @@ import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import "./App.css";
 import SectionTwo from "./SectionTwo";
 import SectionSix from "./SectionSix";
+import Footer from "./components/Footer";
+
 
 function SectionOne() {
   return (
@@ -13,7 +15,7 @@ function SectionOne() {
         </ParallaxLayer>
         <ParallaxLayer offset={0} speed={0.4}>
           <div className="animation_layer parallax" id="artcrop"></div>
-          {/* <img src={cropBorobudur} className='h-screen w-full object-cover' /> */}
+          {/* <img srrc={cropBorobudur} className='h-screen w-full object-cover' /> */}
         </ParallaxLayer>
         <ParallaxLayer offset={0} speed={0}>
           <div className="flex justify-center items-center h-screen">
@@ -31,6 +33,9 @@ function SectionOne() {
         </ParallaxLayer>
         <ParallaxLayer offset={2} speed={0.25} style={{}}>
           <SectionSix />
+        </ParallaxLayer>
+        <ParallaxLayer offset={3} speed={0.25} style={{}}>
+          <Footer/>
         </ParallaxLayer>
       </Parallax>
     </div>
