@@ -2,6 +2,7 @@ import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import "./App.css";
 import SectionTwo from "./SectionTwo";
 import SectionSix from "./SectionSix";
+import SectionLevelBorobudur from './components/SectionBorobudurLevels'
 
 function SectionOne() {
   return (
@@ -30,6 +31,9 @@ function SectionOne() {
           </div>
         </ParallaxLayer>
         <ParallaxLayer offset={2} speed={0.25} style={{}}>
+          <SectionLevelBorobudur></SectionLevelBorobudur>
+        </ParallaxLayer>
+        <ParallaxLayer offset={3} speed={0.25} style={{}}>
           <SectionSix />
         </ParallaxLayer>
       </Parallax>

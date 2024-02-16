@@ -3,6 +3,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import sectiontwoimg from "./assets/sectiontwoimg.png"
 
+
+
 export default function SectionTwo() {
   useEffect(() => {
     AOS.init({
