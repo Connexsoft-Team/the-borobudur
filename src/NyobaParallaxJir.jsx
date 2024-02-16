@@ -7,27 +7,15 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default function NyobaParallaxJir() {
   useEffect(() => {
-    gsap.to(".parallax", {
-      x: "100%",
-      opacity: 0,
-      scrollTrigger: {
-        trigger: ".parallax-outer",
-        scrub: true,
-        markers: true,
-        start: "top top",
-        end: "bottom bottom",
-      },
-    });
 
-    gsap.to("#text-animate", {
+    gsap.to("#text-borobudur", {
       opacity: 1,
-      y: -700,
       scrollTrigger: {
         trigger: ".parallax",
         scrub: true,
         markers: true,
         start: "top center",
-        end: "bottom center",
+        end: "bottom",
       },
     });
   }, []);
@@ -35,7 +23,7 @@ export default function NyobaParallaxJir() {
   return (
     <div className="parallax-outer bg-cover bg-center h-screen flex items-center justify-center" style={{ backgroundImage: `url(${croppedborobudur})` }}>
       <div className="parallax">
-        <span id="text-animate" className="text-animate text-white text-6xl font-bold absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">BOROBUDUR</span>
+        <span id="text-borobudur" className="text-animate text-white text-6xl font-bold absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" style={{ opacity:0 }}>BOROBUDUR</span>
       </div>
     </div>
   );
