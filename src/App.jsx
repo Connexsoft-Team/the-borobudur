@@ -5,9 +5,9 @@ import SectionTwo from "./SectionTwo";
 function App() {
   return (
     <>
-      {/* <SectionTwo /> */}
-      {/* <SectionSix /> */}
+      <SectionTwo />
       <SectionThree/>
+      <SectionSix />
     </>
   );
 }
