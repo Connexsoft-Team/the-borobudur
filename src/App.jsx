@@ -1,7 +1,6 @@
 import './App.css'
 import SectionTwo from './SectionTwo';
 import SectionOne from './SectionOne';
-import SectionCoba from './SectionCoba';
 
 function App() {
 
@@ -9,7 +8,6 @@ function App() {
     <div className='App'>
     <SectionOne/>
     {/* <SectionTwo/> */}
-    {/* <SectionCoba></SectionCoba> */}
     </div>
   )
 }

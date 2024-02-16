@@ -1,6 +1,8 @@
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import './App.css'
 import SectionTwo from './SectionTwo'
+import SectionLevelBorobudur from './components/SectionBorobudurLevels'
+
 
 function SectionOne() {
 
@@ -28,7 +30,11 @@ function SectionOne() {
               <SectionTwo></SectionTwo>
             </div>
           </ParallaxLayer>
-
+          <ParallaxLayer offset={2} speed={0.25} style={{ }}>
+            <div className='flex justify-center items-center h-screen'>
+              <SectionLevelBorobudur></SectionLevelBorobudur>
+            </div>
+          </ParallaxLayer>
       </Parallax>
     </div>
   )
