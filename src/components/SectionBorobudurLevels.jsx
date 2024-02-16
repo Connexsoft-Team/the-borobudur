@@ -7,7 +7,7 @@ import arupadhatu from '../assets/arupadhatu.png'
 function SectionLevelBorobudur() {
   return (
     <div className='flex flex-col justify-center items-center'>
-      <div className='py-8'>
+      <div className='py-8 pt-16'>
         <h1 className='text-7xl title-color font-bold text-center '>THE BOROBUDUR LEVEL</h1>
       </div>
       <div className='p-16 flex gap-16 flex-col'>

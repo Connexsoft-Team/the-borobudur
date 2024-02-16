@@ -1,14 +1,16 @@
-import './App.css'
-import SectionOne from './SectionOne';
+import SectionOne from "./SectionOne";
+import SectionSix from "./SectionSix";
+import SectionThree from "./SectionThree";
+import SectionTwo from "./SectionTwo";
 
 function App() {
-
   return (
+
     <div className='App'>
     <SectionOne/>
-    {/* <SectionTwo/> */}
+    {/* <SectionSix/> */}
     </div>
   )
 }
 
-export default App
+export default App;
