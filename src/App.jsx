@@ -1,7 +1,5 @@
 import './App.css'
-import SectionTwo from './SectionTwo';
 import SectionOne from './SectionOne';
-import SectionCoba from './SectionCoba';
 
 function App() {
 
