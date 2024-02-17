@@ -48,7 +48,7 @@ export default function SectionFour() {
         <span className="text-[#E4E1D4] text-[54px] lg:text-[64px] font-bold">
           GALLERY
         </span>
-        <div className="wrapper-4 flex lg:flex-row flex-col gap-[10px]">
+        <div className="wrapper-4 flex flex-row gap-[10px]">
           <img
             src={image4}
             alt="image 2"
@@ -85,7 +85,22 @@ export default function SectionFour() {
             className="object-cover w-full h-[453px]"
           />
         </div>
-        <div className="wrapper-5 flex flex-col lg:flex-row-reverse gap-[10px]">
+        <div className="wrapper-5 flex flex-row-reverse gap-[10px]">
+        <img
+            src={image1}
+            alt="image 2"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
+            src={image7}
+            alt="image 3"
+            className="object-cover w-full h-[453px] lg:block hidden"
+          />
+          <img
+            src={image6}
+            alt="image 3"
+            className="object-cover w-full h-[453px] lg:block hidden"
+          />
           <img
             src={image4}
             alt="image 3"
@@ -127,7 +142,17 @@ export default function SectionFour() {
             className="object-cover w-full h-[453px] lg:block hidden"
           />
         </div>
-        <div className="wrapper-6 flex flex-col lg:flex-row gap-[10px]">
+        <div className="wrapper-6 flex flex-row gap-[10px]">
+        <img
+            src={image3}
+            alt="image 2"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
+            src={image6}
+            alt="image 2"
+            className="object-cover w-full h-[453px]"
+          />
           <img
             src={image7}
             alt="image 1"
