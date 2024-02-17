@@ -1,7 +1,5 @@
 /* eslint-disable no-unused-vars */
 import React, { useEffect } from "react";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 import image1 from "./assets/image1.png";
 import image2 from "./assets/image2.png";
 import image3 from "./assets/image3.png";
@@ -9,6 +7,8 @@ import image4 from "./assets/image4.png";
 import image5 from "./assets/image5.png";
 import image6 from "./assets/image6.png";
 import image7 from "./assets/image7.png";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 export default function SectionFour() {
   useEffect(() => {
@@ -53,6 +53,16 @@ export default function SectionFour() {
         </span>
         <div className="wrapper-4 flex lg:flex-row flex-col gap-[10px]">
           <img
+            src={image4}
+            alt="image 2"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
+            src={image5}
+            alt="image 2"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
             src={image7}
             alt="image 1"
             className="object-cover w-full h-[453px]"
@@ -89,7 +99,7 @@ export default function SectionFour() {
             alt="image 3"
             className="object-cover w-full h-[453px] lg:block hidden"
           />
-           <img
+          <img
             src={image2}
             alt="image 3"
             className="object-cover w-full h-[453px] lg:block hidden"
