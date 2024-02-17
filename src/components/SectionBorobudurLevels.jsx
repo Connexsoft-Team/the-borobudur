@@ -19,62 +19,62 @@ function SectionLevelBorobudur() {
       },
     });
 
-        // Animation for the title
-        gsap.to(".title", {
-            opacity: 1,
-            y: 0,
-            duration: 1, // Adjust the duration to make it slower
-            scrollTrigger: {
-                trigger: ".titletrigger",
-                scrub: true,
-                start: "-=350px",
-                end: "end center",
-            }
-        });
+    // Animation for the title
+    gsap.to(".title", {
+      opacity: 1,
+      y: 0,
+      duration: 1, // Adjust the duration to make it slower
+      scrollTrigger: {
+        trigger: ".titletrigger",
+        scrub: true,
+        start: "-=350px",
+        end: "end center",
+      }
+    });
 
-        // Animation for Kamadhatu
-        gsap.to(".kamadhatu", {
-            opacity: 1,
-            x: 0,
-            duration: 20, // Adjust the duration to make it slower
-            scrollTrigger: {
-                trigger: ".kamatrigger",
-                scrub: true,
-                start: "-=500px",
-                end: "+=650px",
-            }
-        });
+    // Animation for Kamadhatu
+    gsap.to(".kamadhatu", {
+      opacity: 1,
+      x: 0,
+      duration: 20, // Adjust the duration to make it slower
+      scrollTrigger: {
+        trigger: ".kamatrigger",
+        scrub: true,
+        start: "-=500px",
+        end: "+=650px",
+      }
+    });
 
-        // Animation for Rupadhatu
-        gsap.to(".rupadhatu", {
-            opacity: 1,
-            x: 0,
-            duration: 20, // Adjust the duration to make it slower
-            scrollTrigger: {
-                trigger: ".rupatrigger",
-                scrub: true,
-                start: "-=500px",
-                end: "+=650px", // Change the end position
-            }
-        });
+    // Animation for Rupadhatu
+    gsap.to(".rupadhatu", {
+      opacity: 1,
+      x: 0,
+      duration: 20, // Adjust the duration to make it slower
+      scrollTrigger: {
+        trigger: ".rupatrigger",
+        scrub: true,
+        start: "-=500px",
+        end: "+=650px", // Change the end position
+      }
+    });
 
-        // Animation for Arupadhatu
-        gsap.to(".arupadhatu", {
-            opacity: 1,
-            x: 0,
-            duration: 20, // Adjust the duration to make it slower
-            scrollTrigger: {
-                trigger: ".arupatrigger",
-                scrub: true,
-                start: "-=500px",
-                end: "+=650px",
-            }
-        });
+    // Animation for Arupadhatu
+    gsap.to(".arupadhatu", {
+      opacity: 1,
+      x: 0,
+      duration: 20, // Adjust the duration to make it slower
+      scrollTrigger: {
+        trigger: ".arupatrigger",
+        scrub: true,
+        start: "-=500px",
+        end: "+=650px",
+      }
+    });
 
   }, []);
 
   return (
-    <div className='flex flex-col relative overflow-x-hidden justify-center items-center titletrigger py-32'>
+    <div className='flex flex-col container mx-auto relative overflow-x-hidden justify-center items-center titletrigger py-32'>
       <div className='py-8 pt-16 '>
         <h1 className='title text-5xl lg:text-7xl title-color font-bold text-center opacity-0 transition-all duration-300 '>THE BOROBUDUR LEVEL</h1>
       </div>
