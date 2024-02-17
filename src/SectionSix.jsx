@@ -1,4 +1,5 @@
-import React, { useEffect, useRef } from "react";
+/* eslint-disable no-unused-vars */
+import React, { useEffect } from "react";
 import visitthetemple from "./assets/visitthetemple.png";
 import compas from "./assets/compas.png";
 import telephone from "./assets/telephone.png";
@@ -6,12 +7,12 @@ import time from "./assets/time.png";
 import envelope from "./assets/envelope.png";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-// import { useGSAP } from "@gsap/react";
+
 
 export default function SectionSix() {
 
- useEffect(() => {
-  gsap.registerPlugin(ScrollTrigger);
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
 
     gsap.to(".text-icon", {
       opacity: 1,
@@ -20,7 +21,7 @@ export default function SectionSix() {
         scrub: true,
         markers: true,
         start: "top center",
-        end:"bottom center",
+        end: "bottom center",
       }
     })
 
@@ -31,7 +32,7 @@ export default function SectionSix() {
         scrub: true,
         markers: true,
         start: "top center",
-        end:"bottom center",
+        end: "bottom center",
       }
     });
 
@@ -42,11 +43,11 @@ export default function SectionSix() {
         scrub: true,
         markers: true,
         start: "top center",
-        end:"bottom center",
+        end: "bottom center",
       }
     });
 
-    
+
     gsap.to(".text-loc-2", {
       opacity: 1,
       scrollTrigger: {
@@ -54,7 +55,7 @@ export default function SectionSix() {
         scrub: true,
         markers: true,
         start: "top center",
-        end:"bottom center",
+        end: "bottom center",
       }
     });
 
@@ -65,7 +66,7 @@ export default function SectionSix() {
         scrub: true,
         markers: true,
         start: "top center",
-        end:"bottom center",
+        end: "bottom center",
       }
     });
 
@@ -76,7 +77,7 @@ export default function SectionSix() {
         scrub: true,
         markers: true,
         start: "top center",
-        end:"bottom center",
+        end: "bottom center",
       }
     });
 
@@ -87,7 +88,7 @@ export default function SectionSix() {
         scrub: true,
         markers: true,
         start: "top center",
-        end:"bottom center",
+        end: "bottom center",
       }
     });
 
@@ -95,20 +96,20 @@ export default function SectionSix() {
   }, []);
 
   return (
-    <div className="container-1 h-[200vh] mx-auto max-w-full w-full ">
-      <div className="flex flex-col justify-center items-center">
+    <div className="container-1 mx-auto max-w-full w-full mb-16">
+      <div className="flex flex-col justify-center items-center px-8">
         <img
           src={visitthetemple}
           alt="none"
           className="w-[400px] h-[300px] object-cover"
         />
-        <span id="text1" className="text-visit text-[48px] text-white font-bold mt-[32px]">
+        <span id="text1" className="text-visit text-[40px] lg:text-[48px] text-[#E4E1D4] font-bold mt-[32px]">
           Visit The Temple
         </span>
-        <span className="text-[16px] text-[#E4E1D4] mb-[32px]" id="mulai">
+        <span className="text-[14px] lg:text-[16px] text-[#E4E1D4] text-center opacity-90" id="mulai">
           Begin your journey to Borobudur by following a few simple steps.
         </span>
-        <div className="flex w-full gap-[32px] px-[64px]">
+        <div className="grid md:grid-cols-2 grid-cols-1 mt-8 lg:grid-cols-3 w-full gap-[35px] justify-between px-0 lg:px-[52px]">
           <div className="flex flex-col bg-[#302E2D] p-[32px] rounded-[16px] w-full items-center">
             <img
               src={compas}
@@ -116,7 +117,7 @@ export default function SectionSix() {
               className="text-icon w-[67px] h-[67px] object-cover"
               style={{ opacity: 0 }}
             />
-            <span className="text-loc-1 text-[48px] text-white font-bold my-[16px]" style={{ opacity: 0 }}>
+            <span className="text-loc-1 text-[40px] lg:text-[48px] text-[#E4E1D4] font-bold my-[16px]" style={{ opacity: 0 }}>
               Location
             </span>
             <div className=" text-center">
@@ -142,7 +143,7 @@ export default function SectionSix() {
               className="text-icon w-[51px] h-[71px] object-cover"
               style={{ opacity: 0 }}
             />
-            <span className="text-loc-2 text-[48px] text-white font-bold my-[16px]" style={{ opacity: 0 }}>
+            <span className="text-loc-2 text-[40px] lg:text-[48px] text-[#E4E1D4] font-bold my-[16px]" style={{ opacity: 0 }}>
               Hours
             </span>
             <span className="text-desc-2 text-[16px] text-[#E4E1D4] text-center" style={{ opacity: 0 }}>
@@ -160,7 +161,7 @@ export default function SectionSix() {
               className="text-icon w-[63px] h-[64px] object-cover"
               style={{ opacity: 0 }}
             />
-            <span className="text-loc-3 text-[48px] text-white font-bold my-[16px]" style={{ opacity: 0 }}>
+            <span className="text-loc-3 text-[40px] lg:text-[48px] text-[#E4E1D4] font-bold my-[16px]" style={{ opacity: 0 }}>
               Contact
             </span>
             <span className="text-desc-3 text-[16px] text-[#E4E1D4] text-center" style={{ opacity: 0 }}>
@@ -172,12 +173,7 @@ export default function SectionSix() {
               <span className="text-desc-3 text-[16px] text-[#E4E1D4] font-bold" style={{ opacity: 0 }}>
                 +62 811-2688-000
               </span>
-              <img
-                src={envelope}
-                alt="none"
-                className="text-desc-3 w-[22px] h-[18px] object-cover"
-                style={{ opacity: 0 }}
-              />
+
               <span className="text-desc-3 text-[16px] text-[#E4E1D4] font-bold" style={{ opacity: 0 }}>
                 marketing@borobudurpark.co.id
               </span>
