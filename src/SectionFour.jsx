@@ -43,7 +43,7 @@ export default function SectionFour() {
     });
   }, []);
   return (
-    <div className="wrap-t w-full h-full relative overflow-hidden">
+    <div className="wrap-t w-screen h-full relative overflow-hidden">
       <div className="wrapper-trig flex flex-col items-center gap-[10px]">
         <span className="text-[#E4E1D4] text-[54px] lg:text-[64px] font-bold">
           GALLERY

@@ -34,7 +34,7 @@ export default function SectionTwo() {
   }, []);
 
   return (
-    <div className="container mx-auto my-[32px] w-full h-full">
+    <div className="container mx-auto my-[32px] w-screen h-full">
       <div className="flex lg:flex-row flex-col px-[2rem] lg:px-[4rem] gap-8 items-center justify-between w-full">
         <div className="flex w-full h-full items-center justify-center">
           <div className="image-cover w-full h-[400px] lg:w-[515px] lg:h-[660px] object-cover rounded-[16px] overflow-hidden">

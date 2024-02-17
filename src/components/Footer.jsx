@@ -38,7 +38,7 @@ function Footer() {
 
     return (
         <footer>
-            <div className="footer-map">
+            <div className="footer-map w-screen">
                 <iframe
                     className="pointer-events-none select-none"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63274.36945766059!2d110.15826765686604!3d-7.613217054813654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a8cf009a7d697%3A0xdd34334744dc3cb!2sCandi%20Borobudur!5e0!3m2!1sid!2sid!4v1708074510612!5m2!1sid!2sid"
@@ -49,7 +49,7 @@ function Footer() {
                     aria-hidden="false"
                     tabIndex="0" />
             </div>
-            <div className="footer-top flex flex-nowrap relative overflow-hidden footer-label  gap-8 bg-[#9B3221] text-white font-bold text-4xl py-8 max-w-screen">
+            <div className="footer-top flex flex-nowrap relative overflow-hidden footer-label  gap-8 bg-[#9B3221] text-white font-bold text-4xl py-8 max-w-screen w-screen">
                 <div className="wrappers-text-shifted flex gap-12">
                     <a href="https://www.instagram.com/borobudurpark" target='_blank'>
                         <span>

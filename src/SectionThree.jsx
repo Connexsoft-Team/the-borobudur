@@ -31,7 +31,7 @@ export default function SectionThree() {
   }, []);
 
   return (
-    <div className="w-full relative overflow-hidden h-full">
+    <div className="w-screen relative overflow-hidden h-full">
       <div className="wrapper-trigger flex flex-col max-w-screen mt-[10rem] mb-[64px] gap-[16px]">
         <div className="wrapper-1 inline-flex flex-row-reverse flex-nowrap max-w-screen items-center gap-[32px]">
           <img
