@@ -100,7 +100,7 @@ export default function SectionSix() {
   }, []);
 
   return (
-    <div className="container-1 mx-auto max-w-full w-full mb-16 mt-20">
+    <div className="container mx-auto w-full mb-16 mt-20">
       <div className="flex flex-col justify-center items-center px-8">
         <img
           src={visitthetemple}
