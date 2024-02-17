@@ -1,4 +1,4 @@
-import NyobaParallaxJir from "./NyobaParallaxJir";
+import ParallaxSection from "./parralax"
 import SectionFour from "./SectionFour";
 import SectionOne from "./SectionOne";
 import SectionSix from "./SectionSix";
@@ -7,10 +7,11 @@ import SectionTwo from "./SectionTwo";
 import Footer from "./components/Footer";
 import SectionLevelBorobudur from "./components/SectionBorobudurLevels";
 
+
 function App() {
   return (
     <>
-      <NyobaParallaxJir />
+      <ParallaxSection />
       <SectionTwo />
       <SectionThree />
       <SectionLevelBorobudur />
