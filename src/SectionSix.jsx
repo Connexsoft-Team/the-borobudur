@@ -14,6 +14,17 @@ export default function SectionSix() {
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
+    // gsap.to(".text-visit", {
+    //   opacity: 0.9,
+    //   scrollTrigger: {
+    //     trigger: ".image-visit",
+    //     start: "top-150px",
+    //     end: "bottom center",
+    //     scrub: true,
+    //     markers: true,
+    //   }
+    // })
+
     gsap.to(".text-icon", {
       opacity: 1,
       scrollTrigger: {
@@ -21,7 +32,7 @@ export default function SectionSix() {
         scrub: true,
         markers: true,
         start: "top center",
-        end: "bottom center",
+        end: "+=550px",
       }
     })
 
@@ -32,7 +43,7 @@ export default function SectionSix() {
         scrub: true,
         markers: true,
         start: "top center",
-        end: "bottom center",
+        end: "+=550px",
       }
     });
 
@@ -43,7 +54,7 @@ export default function SectionSix() {
         scrub: true,
         markers: true,
         start: "top center",
-        end: "bottom center",
+        end: "+=550px",
       }
     });
 
@@ -55,7 +66,7 @@ export default function SectionSix() {
         scrub: true,
         markers: true,
         start: "top center",
-        end: "bottom center",
+        end: "+=550px",
       }
     });
 
@@ -66,7 +77,7 @@ export default function SectionSix() {
         scrub: true,
         markers: true,
         start: "top center",
-        end: "bottom center",
+        end: "+=550px",
       }
     });
 
@@ -77,7 +88,7 @@ export default function SectionSix() {
         scrub: true,
         markers: true,
         start: "top center",
-        end: "bottom center",
+        end: "+=550px",
       }
     });
 
@@ -88,7 +99,7 @@ export default function SectionSix() {
         scrub: true,
         markers: true,
         start: "top center",
-        end: "bottom center",
+        end: "+=550px",
       }
     });
 
@@ -101,12 +112,12 @@ export default function SectionSix() {
         <img
           src={visitthetemple}
           alt="none"
-          className="w-[400px] h-[300px] object-cover"
+          className="image-visit w-[400px] h-[300px] object-cover"
         />
         <span id="text1" className="text-visit text-[40px] lg:text-[48px] text-[#E4E1D4] font-bold mt-[32px]">
           Visit The Temple
         </span>
-        <span className="text-[14px] lg:text-[16px] text-[#E4E1D4] text-center opacity-90" id="mulai">
+        <span className="text-visit text-[14px] lg:text-[16px] text-[#bdbbb0] text-center" id="mulai">
           Begin your journey to Borobudur by following a few simple steps.
         </span>
         <div className="grid md:grid-cols-2 grid-cols-1 mt-8 lg:grid-cols-3 w-full gap-[35px] justify-between px-0 lg:px-[52px]">

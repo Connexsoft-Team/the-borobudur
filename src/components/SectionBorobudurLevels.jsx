@@ -19,57 +19,61 @@ function SectionLevelBorobudur() {
       },
     });
 
-    // Animation for the title
-    gsap.to(".title", {
-      opacity: 1,
-      y: 0,
-      duration: 3, // Adjust the duration to make it slower
-      scrollTrigger: {
-        trigger: ".titletrigger",
-        scrub: true,
-        start: "top center",
-        end: "bottom center",
-      }
-    });
+        // Animation for the title
+        gsap.to(".title", {
+            opacity: 1,
+            y: 0,
+            duration: 1, // Adjust the duration to make it slower
+            scrollTrigger: {
+                trigger: ".titletrigger",
+                scrub: true,
+                markers: true,
+                start: "-=50px",
+                end: "+=150px",
+            }
+        });
 
-    // Animation for Kamadhatu
-    gsap.to(".kamadhatu", {
-      opacity: 1,
-      x: 0,
-      duration: 20, // Adjust the duration to make it slower
-      scrollTrigger: {
-        trigger: ".kamatrigger",
-        scrub: true,
-        start: "top center",
-        end: "bottom+50",
-      }
-    });
+        // Animation for Kamadhatu
+        gsap.to(".kamadhatu", {
+            opacity: 1,
+            x: 0,
+            duration: 20, // Adjust the duration to make it slower
+            scrollTrigger: {
+                trigger: ".kamatrigger",
+                scrub: true,
+                markers: true,
+                start: "-=500px",
+                end: "+=650px",
+            }
+        });
 
-    // Animation for Rupadhatu
-    gsap.to(".rupadhatu", {
-      opacity: 1,
-      x: 0,
-      duration: 20, // Adjust the duration to make it slower
-      scrollTrigger: {
-        trigger: ".rupatrigger",
-        scrub: true,
-        start: "top center",
-        end: "bottom+50", // Change the end position
-      }
-    });
+        // Animation for Rupadhatu
+        gsap.to(".rupadhatu", {
+            opacity: 1,
+            x: 0,
+            duration: 20, // Adjust the duration to make it slower
+            scrollTrigger: {
+                trigger: ".rupatrigger",
+                scrub: true,
+                markers: true,
+                start: "-=500px",
+                end: "+=650px", // Change the end position
+            }
+        });
 
-    // Animation for Arupadhatu
-    gsap.to(".arupadhatu", {
-      opacity: 1,
-      x: 0,
-      duration: 20, // Adjust the duration to make it slower
-      scrollTrigger: {
-        trigger: ".arupatrigger",
-        scrub: true,
-        start: "top center",
-        end: "bottom+50",
-      }
-    });
+        // Animation for Arupadhatu
+        gsap.to(".arupadhatu", {
+            opacity: 1,
+            x: 0,
+            duration: 20, // Adjust the duration to make it slower
+            scrollTrigger: {
+                trigger: ".arupatrigger",
+                scrub: true,
+                markers: true,
+                start: "-=500px",
+                end: "+=650px",
+            }
+        });
 
   }, []);
 
