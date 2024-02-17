@@ -96,7 +96,7 @@ export default function SectionSix() {
   }, []);
 
   return (
-    <div className="container-1 mx-auto max-w-full w-full mb-16 transisition-all duration-300">
+    <div className="container-1 mx-auto max-w-full w-full mb-16 transisition-all duration-300 py">
       <div className="flex flex-col justify-center items-center px-8">
         <img
           src={visitthetemple}
