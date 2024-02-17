@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import image1 from "./assets/image1.png";
 import image2 from "./assets/image2.png";
@@ -11,10 +12,10 @@ export default function SectionFour() {
   return (
     <div className="w-full h-full">
       <div className="flex flex-col items-center gap-[8px] overflow-x-hidden">
-        <span className="text-white text-[96px] font-bold">
+        <span className="text-[#E4E1D4] text-[54px] lg:text-[64px] font-bold">
           GALLERY
         </span>
-        <div className="flex gap-[8px]">
+        <div className="flex lg:flex-row flex-col gap-[8px]">
           <img
             src={image7}
             alt="image 1"
@@ -30,7 +31,7 @@ export default function SectionFour() {
           <img
             src={image5}
             alt="image 1"
-            className="object-cover w-full h-[453px]"
+            className="object-cover w-full h-[453px] lg:block hidden"
           />
           <img
             src={image1}
@@ -40,7 +41,7 @@ export default function SectionFour() {
           <img
             src={image2}
             alt="image 3"
-            className="object-cover w-full h-[453px]"
+            className="object-cover w-full h-[453px] lg:block hidden"
           />
         </div>
         <div className="flex gap-[8px]">

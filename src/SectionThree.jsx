@@ -6,7 +6,7 @@ import komang from "./assets/komang.png";
 
 export default function SectionThree() {
   return (
-    <div className="container max-w-screen h-full">
+    <div className="w-full relative overflow-hidden h-full">
       <div className="flex flex-col max-w-screen mt-[10rem] mb-[64px] gap-[32px]">
         <div className="inline-flex flex-nowrap max-w-screen items-center gap-[32px]">
           <img
@@ -28,7 +28,7 @@ export default function SectionThree() {
           />
           <p className="text-white text-[96px] font-bold">ART</p>
         </div>
-        <div className="inline-flex flex-nowrap max-w-screen items-center gap-[32px]">
+        <div className="inline-flex flex-nowrap max-w-screen items-center gap-[32px] lg:-ml-0 -ml-[220px]">
           <img
             src={ukiran}
             alt="none"

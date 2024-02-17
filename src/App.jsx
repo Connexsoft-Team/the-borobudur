@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import ParallaxSection from "./parralax"
 import SectionFour from "./SectionFour";
 import SectionOne from "./SectionOne";
