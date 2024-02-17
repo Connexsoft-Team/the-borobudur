@@ -4,7 +4,7 @@ import ArtCrop from './assets/croppedborobudur.png';
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-function SectionHeader(props) {
+function SectionHeader() {
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
