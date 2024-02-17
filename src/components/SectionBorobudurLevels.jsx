@@ -27,7 +27,6 @@ function SectionLevelBorobudur() {
             scrollTrigger: {
                 trigger: ".titletrigger",
                 scrub: true,
-                markers: true,
                 start: "-=350px",
                 end: "end center",
             }
@@ -41,7 +40,6 @@ function SectionLevelBorobudur() {
             scrollTrigger: {
                 trigger: ".kamatrigger",
                 scrub: true,
-                markers: true,
                 start: "-=500px",
                 end: "+=650px",
             }
@@ -55,7 +53,6 @@ function SectionLevelBorobudur() {
             scrollTrigger: {
                 trigger: ".rupatrigger",
                 scrub: true,
-                markers: true,
                 start: "-=500px",
                 end: "+=650px", // Change the end position
             }
@@ -69,7 +66,6 @@ function SectionLevelBorobudur() {
             scrollTrigger: {
                 trigger: ".arupatrigger",
                 scrub: true,
-                markers: true,
                 start: "-=500px",
                 end: "+=650px",
             }

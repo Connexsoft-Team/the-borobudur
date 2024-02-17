@@ -16,7 +16,6 @@ export default function SectionTwo() {
         start: "top center",
         end: "bottom center",
         scrub: true,
-        markers: true, // You can remove this in production
       },
     });
 
@@ -30,7 +29,6 @@ export default function SectionTwo() {
         start: "top center",
         end: "bottom center",
         scrub: true,
-        markers: true, // You can remove this in production
       },
     });
   }, []);

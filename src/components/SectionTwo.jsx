@@ -19,7 +19,6 @@ export default function SectionTwo() {
       delay: 1,
       scrollTrigger: {
         trigger: "#image-cover",
-        markers: true,
         start: "top center",
         end: "bottom center",
         scrub: true

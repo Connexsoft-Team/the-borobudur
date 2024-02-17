@@ -20,7 +20,6 @@ export default function SectionFour() {
         start: "top center",
         end: "bottom center",
         scrub: 0.3,
-        markers: true,
       },
     });
 
@@ -31,7 +30,6 @@ export default function SectionFour() {
         start: "top center",
         end: "bottom center",
         scrub: 0.3,
-        markers: true,
       },
     });
     gsap.to(".wrapper-6", {
@@ -41,7 +39,6 @@ export default function SectionFour() {
         start: "top center",
         end: "bottom center",
         scrub: 0.3,
-        markers: true,
       },
     });
   }, []);

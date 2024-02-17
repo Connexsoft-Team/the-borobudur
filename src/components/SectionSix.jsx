@@ -19,7 +19,6 @@ export default function SectionSix() {
       scrollTrigger: {
         trigger: ".text-visit",
         scrub: true,
-        markers: true,
         start: "top center",
         end: "bottom center",
       }
@@ -30,7 +29,6 @@ export default function SectionSix() {
       scrollTrigger: {
         trigger: ".text-icon",
         scrub: true,
-        markers: true,
         start: "top center",
         end: "bottom center",
       }
@@ -41,7 +39,6 @@ export default function SectionSix() {
       scrollTrigger: {
         trigger: ".text-loc-1",
         scrub: true,
-        markers: true,
         start: "top center",
         end: "bottom center",
       }
@@ -53,7 +50,6 @@ export default function SectionSix() {
       scrollTrigger: {
         trigger: ".text-icon",
         scrub: true,
-        markers: true,
         start: "top center",
         end: "bottom center",
       }
@@ -64,7 +60,6 @@ export default function SectionSix() {
       scrollTrigger: {
         trigger: ".text-loc-2",
         scrub: true,
-        markers: true,
         start: "top center",
         end: "bottom center",
       }
@@ -75,7 +70,6 @@ export default function SectionSix() {
       scrollTrigger: {
         trigger: ".text-icon",
         scrub: true,
-        markers: true,
         start: "top center",
         end: "bottom center",
       }
@@ -86,7 +80,6 @@ export default function SectionSix() {
       scrollTrigger: {
         trigger: ".text-loc-1",
         scrub: true,
-        markers: true,
         start: "top center",
         end: "bottom center",
       }
