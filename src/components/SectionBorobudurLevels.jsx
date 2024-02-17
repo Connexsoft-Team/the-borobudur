@@ -74,7 +74,7 @@ function SectionLevelBorobudur() {
   }, []);
 
   return (
-    <div className='flex flex-col relative overflow-x-hidden justify-center items-center titletrigger py-32'>
+    <div className='container mx-auto flex flex-col relative overflow-x-hidden justify-center items-center titletrigger py-32'>
       <div className='py-8 pt-16 '>
         <h1 className='title text-5xl lg:text-7xl title-color font-bold text-center opacity-0 transition-all duration-300 '>THE BOROBUDUR LEVEL</h1>
       </div>
