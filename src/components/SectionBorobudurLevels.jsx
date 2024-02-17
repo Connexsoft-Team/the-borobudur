@@ -28,8 +28,8 @@ function SectionLevelBorobudur() {
                 trigger: ".titletrigger",
                 scrub: true,
                 markers: true,
-                start: "-=50px",
-                end: "+=150px",
+                start: "-=350px",
+                end: "end center",
             }
         });
 
