@@ -90,8 +90,8 @@ function SectionLevelBorobudur() {
           </div>
         </div>
         <div className=' rupatrigger relative'>
-          <div className='rupadhatu flex lg:flex-row flex-col w-full  justify-center opacity-0 translate-x-96'>
-            <div className='flex gap-4 flex-col order-1 lg:mt-0 mt-8 px-0 lg:px-16 justify-center'>
+          <div className='rupadhatu flex lg:flex-row-reverse flex-col w-full  justify-center opacity-0 translate-x-96'>
+            <div className='flex gap-4 flex-col order-1 lg:mt-0 mt-8 px-0 lg:px-16 justify-center lg:text-end'>
               <h1 className='text-5xl lg:text-6xl title-color font-bold'>Rupadhatu</h1>
               <p className='text-white/70 text-base'>Rupadhatu is the central part of Buddhist cosmology which is found on floors 3 to 7 in the body of Borobudur Temple. In Buddhist cosmology, Rupadhatu symbolizes the realm between, where humans have begun to abandon worldly desires, but are still bound by the real world. In the Rupadhatu ajan section you can find several temple ornaments including, kala makara gate, statue niche, Buddha statue, jaladwara, ghana, keben, small stupas, and story reliefs. In this section there are also 1,212 symbolic decorative reliefs and 1,300 story reliefs. The story reliefs in the Rupadhatu section are the Lalitavistara, Jataka Avadana, and Gandawyuha reliefs.</p>
             </div>
