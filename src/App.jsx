@@ -1,7 +1,6 @@
 /* eslint-disable no-unused-vars */
 import ParallaxSection from "./parralax"
 import SectionFour from "./SectionFour";
-import SectionSix from "./SectionSix";
 import SectionThree from "./SectionThree";
 import SectionTwo from "./SectionTwo";
 import Footer from "./components/Footer";
@@ -10,6 +9,7 @@ import { ReactLenis } from "@studio-freight/react-lenis"
 import { useEffect, useState } from "react";
 import Spinner from "./components/Spinner";
 import gsap from "gsap";
+import SectionSix from "./SectionSix";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -24,7 +24,7 @@ function App() {
         duration: 1.5
       })
       setLoading(false)
-    }, 5000)
+    }, 2000)
 
 
   }, [])

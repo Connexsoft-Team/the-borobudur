@@ -13,7 +13,6 @@ export default function SectionThree() {
       x: "80%",
       duration: 30,
       ease: "power1.inOut",
-      duration: 1,
       scrollTrigger: {
         trigger: ".wrapper-trigger",
         start: "top center",
@@ -27,9 +26,7 @@ export default function SectionThree() {
     gsap.to(".wrapper-2", {
       x: "-80%",
       duration: 30,
-
       ease: "power1.inOut",
-      duration: 1,
       scrollTrigger: {
         trigger: ".wrapper-trigger",
         start: "top center",
