@@ -7,18 +7,44 @@ import SectionTwo from "./SectionTwo";
 import Footer from "./components/Footer";
 import SectionLevelBorobudur from "./components/SectionBorobudurLevels";
 import {ReactLenis} from "@studio-freight/react-lenis"
+import { useEffect, useState } from "react";
+import Spinner from "./components/Spinner";
+import gsap from "gsap";
 
 function App() {
+  const [loading, setLoading] = useState(false);
+  const timeline = gsap.timeline()
+
+
+    useEffect(() => {
+        setLoading(true)
+        setTimeout(() => {
+            timeline.from(".app-wrap", {
+              opacity: 0,
+              duration: 1.5
+            })
+            setLoading(false)
+          }, 5000)
+
+
+    }, [])
+
   return (
-    <ReactLenis root>
-      <ParallaxSection />
-      <SectionTwo />
-      <SectionThree />
-      <SectionLevelBorobudur />
-      <SectionFour />
-      <SectionSix />
-      <Footer />
-    </ReactLenis>
+    <>
+    {
+      loading ? <Spinner></Spinner> :
+      <ReactLenis root>
+        <div className={`app-wrap ${loading ? "opacity-0" : ""}`}>
+          <ParallaxSection />
+          <SectionTwo />
+          <SectionThree />
+          <SectionLevelBorobudur />
+          <SectionFour />
+          <SectionSix />
+          <Footer />
+        </div>
+      </ReactLenis>
+      }</>
   );
 }
 
