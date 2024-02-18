@@ -45,73 +45,73 @@ export default function SectionThree() {
           <img
             src={borobudur}
             alt="none"
-            className="w-[259px] h-[122px] object-cover border-white border rounded-[16px]"
+            className="w-[259px] h-[122px] object-cover  select-none pointer-events-none border-white border rounded-[16px]"
           />
           <span className="stroke-text">ARCHITECTURE</span>
           <img
             src={komang}
             alt="none"
-            className="w-[259px] h-[122px] object-cover rounded-[16px] border-white border"
+            className="w-[259px] h-[122px] object-cover  select-none pointer-events-none rounded-[16px] border-white border"
           />
           <span className="text-white text-[96px] font-bold">CULTURES</span>
           <img
             src={ukiran}
             alt="none"
-            className="w-[259px] h-[122px] object-cover rounded-[16px] border-white border"
+            className="w-[259px] h-[122px] object-cover  select-none pointer-events-none rounded-[16px] border-white border"
           />
           <span className="text-white text-[96px] font-bold">ART</span>
           <img
             src={borobudur}
             alt="none"
-            className="w-[259px] h-[122px] object-cover border-white border rounded-[16px]"
+            className="w-[259px] h-[122px] object-cover  select-none pointer-events-none border-white border rounded-[16px]"
           />
           <span className="stroke-text">ARCHITECTURE</span>
           <img
             src={komang}
             alt="none"
-            className="w-[259px] h-[122px] object-cover rounded-[16px] border-white border"
+            className="w-[259px] h-[122px] object-cover  select-none pointer-events-none rounded-[16px] border-white border"
           />
           <span className="text-white text-[96px] font-bold">CULTURES</span>
           <img
             src={ukiran}
             alt="none"
-            className="w-[259px] h-[122px] object-cover rounded-[16px] border-white border"
+            className="w-[259px] h-[122px] object-cover  select-none pointer-events-none rounded-[16px] border-white border"
           />
           <span className="text-white text-[96px] font-bold">ART</span>
           <img
             src={borobudur}
             alt="none"
-            className="w-[259px] h-[122px] object-cover border-white border rounded-[16px]"
+            className="w-[259px] h-[122px] object-cover  select-none pointer-events-none border-white border rounded-[16px]"
           />
           <span className="stroke-text">ARCHITECTURE</span>
           <img
             src={komang}
             alt="none"
-            className="w-[259px] h-[122px] object-cover rounded-[16px] border-white border"
+            className="w-[259px] h-[122px] object-cover  select-none pointer-events-none rounded-[16px] border-white border"
           />
           <span className="text-white text-[96px] font-bold">CULTURES</span>
           <img
             src={ukiran}
             alt="none"
-            className="w-[259px] h-[122px] object-cover rounded-[16px] border-white border"
+            className="w-[259px] h-[122px] object-cover  select-none pointer-events-none rounded-[16px] border-white border"
           />
           <span className="text-white text-[96px] font-bold">ART</span>
           <img
             src={borobudur}
             alt="none"
-            className="w-[259px] h-[122px] object-cover border-white border rounded-[16px]"
+            className="w-[259px] h-[122px] object-cover  select-none pointer-events-none border-white border rounded-[16px]"
           />
           <span className="stroke-text">ARCHITECTURE</span>
           <img
             src={komang}
             alt="none"
-            className="w-[259px] h-[122px] object-cover rounded-[16px] border-white border"
+            className="w-[259px] h-[122px] object-cover  select-none pointer-events-none rounded-[16px] border-white border"
           />
           <span className="text-white text-[96px] font-bold">CULTURES</span>
           <img
             src={ukiran}
             alt="none"
-            className="w-[259px] h-[122px] object-cover rounded-[16px] border-white border"
+            className="w-[259px] h-[122px] object-cover  select-none pointer-events-none rounded-[16px] border-white border"
           />
           <span className="text-white text-[96px] font-bold">ART</span>
         </div>
@@ -119,73 +119,73 @@ export default function SectionThree() {
           <img
             src={ukiran}
             alt="none"
-            className="w-[259px] h-[122px] object-cover rounded-[16px] border-white border"
+            className="w-[259px] h-[122px] object-cover  select-none pointer-events-none rounded-[16px] border-white border"
           />
           <span className="text-white text-[96px] font-bold">ART</span>
           <img
             src={borobudur}
             alt="none"
-            className="w-[259px] h-[122px] object-cover border-white border rounded-[16px]"
+            className="w-[259px] h-[122px] object-cover  select-none pointer-events-none border-white border rounded-[16px]"
           />
           <span className="stroke-text">ARCHITECTURE</span>
           <img
             src={komang}
             alt="none"
-            className="w-[259px] h-[122px] object-cover rounded-[16px] border-white border"
+            className="w-[259px] h-[122px] object-cover  select-none pointer-events-none rounded-[16px] border-white border"
           />
           <span className="text-white text-[96px] font-bold">CULTURES</span>
           <img
             src={ukiran}
             alt="none"
-            className="w-[259px] h-[122px] object-cover rounded-[16px] border-white border"
+            className="w-[259px] h-[122px] object-cover  select-none pointer-events-none rounded-[16px] border-white border"
           />
           <span className="text-white text-[96px] font-bold">ART</span>
           <img
             src={borobudur}
             alt="none"
-            className="w-[259px] h-[122px] object-cover border-white border rounded-[16px]"
+            className="w-[259px] h-[122px] object-cover  select-none pointer-events-none border-white border rounded-[16px]"
           />
           <span className="stroke-text">ARCHITECTURE</span>
           <img
             src={komang}
             alt="none"
-            className="w-[259px] h-[122px] object-cover rounded-[16px] border-white border"
+            className="w-[259px] h-[122px] object-cover  select-none pointer-events-none rounded-[16px] border-white border"
           />
           <span className="text-white text-[96px] font-bold">CULTURES</span>
           <img
             src={ukiran}
             alt="none"
-            className="w-[259px] h-[122px] object-cover rounded-[16px] border-white border"
+            className="w-[259px] h-[122px] object-cover  select-none pointer-events-none rounded-[16px] border-white border"
           />
           <span className="text-white text-[96px] font-bold">ART</span>
           <img
             src={borobudur}
             alt="none"
-            className="w-[259px] h-[122px] object-cover border-white border rounded-[16px]"
+            className="w-[259px] h-[122px] object-cover  select-none pointer-events-none border-white border rounded-[16px]"
           />
           <span className="stroke-text">ARCHITECTURE</span>
           <img
             src={komang}
             alt="none"
-            className="w-[259px] h-[122px] object-cover rounded-[16px] border-white border"
+            className="w-[259px] h-[122px] object-cover  select-none pointer-events-none rounded-[16px] border-white border"
           />
           <span className="text-white text-[96px] font-bold">CULTURES</span>
           <img
             src={ukiran}
             alt="none"
-            className="w-[259px] h-[122px] object-cover rounded-[16px] border-white border"
+            className="w-[259px] h-[122px] object-cover  select-none pointer-events-none rounded-[16px] border-white border"
           />
           <span className="text-white text-[96px] font-bold">ART</span>
           <img
             src={borobudur}
             alt="none"
-            className="w-[259px] h-[122px] object-cover border-white border rounded-[16px]"
+            className="w-[259px] h-[122px] object-cover  select-none pointer-events-none border-white border rounded-[16px]"
           />
           <span className="stroke-text">ARCHITECTURE</span>
           <img
             src={komang}
             alt="none"
-            className="w-[259px] h-[122px] object-cover rounded-[16px] border-white border"
+            className="w-[259px] h-[122px] object-cover  select-none pointer-events-none rounded-[16px] border-white border"
           />
           <span className="text-white text-[96px] font-bold">CULTURES</span>
         </div>

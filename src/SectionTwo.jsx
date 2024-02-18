@@ -41,15 +41,15 @@ export default function SectionTwo() {
             <img
               src={sectiontwoimg}
               alt="none"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover select-none pointer-events-none"
             />
           </div>
         </div>
         <div className="flex flex-col w-full">
-          <span style={{ opacity:0 }} className="text-[48px] md:text-[60px] lg:text-[96px] leading-normal lg:leading-[96px] font-bold text-[#E4E1D4] world-heritage">
+          <span style={{ opacity: 0 }} className="text-[48px] md:text-[60px] lg:text-[96px] leading-normal lg:leading-[96px] font-bold text-[#E4E1D4] world-heritage">
             World Heritage
           </span>
-          <span style={{ opacity:0 }} className="text-white/60 text-[16px] mt-[1rem] lg:mt-[2rem] font-semibold random-text">
+          <span style={{ opacity: 0 }} className="text-white/60 text-[16px] mt-[1rem] lg:mt-[2rem] font-semibold random-text">
             Between 780-840 AD, during the reign oaf the Sailendra dynasty, the grandest Buddhist relic ever known to mankind was erected. Serving both as a sanctuary for Buddhist devotion and a sacred pilgrimage site, this monumental structure held within its walls teachings guiding individuals to transcend worldly desires and embrace the path to enlightenment and wisdom as elucidated by the Buddha. In 1814, under the command of Sir Thomas Stanford Raffles, British troops stumbled upon this marvel, lost to time until then. It wasn't until 1835 that efforts were made to meticulously cleanse and restore the temple grounds to their former glory.
           </span>
         </div>

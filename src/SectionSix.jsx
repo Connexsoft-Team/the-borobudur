@@ -95,13 +95,13 @@ export default function SectionSix() {
           alt="none"
           className="image-visit w-[600px] h-[400px] object-cover rounded-lg"
         />
-        <span id="text1" className="text-visit text-[40px] lg:text-[48px] text-[#E4E1D4] font-bold mt-[32px]">
+        <span id="text1" className="text-visit text-[35px] lg:text-[48px] text-[#E4E1D4] font-bold mt-[32px] text-center">
           Visit The Temple
         </span>
         <span className="text-visit text-[14px] lg:text-[16px] text-[#bdbbb0] text-center" id="mulai">
           Begin your journey to Borobudur by following a few simple steps.
         </span>
-        <div className="grid md:grid-cols-2 grid-cols-1 mt-8 lg:grid-cols-3 w-full gap-[35px] justify-between px-0 lg:px-[52px] h-screen py-16 items-center" >
+        <div className="grid md:grid-cols-2 grid-cols-1 mt-8 lg:grid-cols-3 w-full gap-[35px] justify-between px-0 lg:px-[52px] h-full py-16 items-center" >
           <div className="flex flex-col bg-[#302E2D] p-[32px] rounded-[16px] w-full items-center h-full">
             <img
               src={compas}
@@ -109,7 +109,7 @@ export default function SectionSix() {
               className="text-icon w-[67px] h-[67px] object-cover"
               style={{ opacity: 0 }}
             />
-            <span className="text-loc-1 text-[40px] lg:text-[48px] text-[#E4E1D4] font-bold my-[16px]" style={{ opacity: 0 }}>
+            <span className="text-loc-1 text-[35px] lg:text-[48px] text-[#E4E1D4] font-bold my-[16px]" style={{ opacity: 0 }}>
               Location
             </span>
             <div className=" text-center">
@@ -135,7 +135,7 @@ export default function SectionSix() {
               className="text-icon w-[51px] h-[71px] object-cover"
               style={{ opacity: 0 }}
             />
-            <span className="text-loc-2 text-[40px] lg:text-[48px] text-[#E4E1D4] font-bold my-[16px]" style={{ opacity: 0 }}>
+            <span className="text-loc-2 text-[35px] lg:text-[48px] text-[#E4E1D4] font-bold my-[16px]" style={{ opacity: 0 }}>
               Hours
             </span>
             <span className="text-desc-2 text-[16px] text-[#E4E1D4] text-center" style={{ opacity: 0 }}>
@@ -153,7 +153,7 @@ export default function SectionSix() {
               className="text-icon w-[63px] h-[64px] object-cover"
               style={{ opacity: 0 }}
             />
-            <span className="text-loc-3 text-[40px] lg:text-[48px] text-[#E4E1D4] font-bold my-[16px]" style={{ opacity: 0 }}>
+            <span className="text-loc-3 text-[35px] lg:text-[48px] text-[#E4E1D4] font-bold my-[16px]" style={{ opacity: 0 }}>
               Contact
             </span>
             <span className="text-desc-3 text-[16px] text-[#E4E1D4] text-center" style={{ opacity: 0 }}>
