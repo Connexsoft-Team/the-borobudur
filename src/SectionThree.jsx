@@ -10,7 +10,8 @@ export default function SectionThree() {
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
     gsap.to(".wrapper-1", {
-      x: "60%",
+      x: "80%",
+      duration: 30,
       ease: "power1.inOut",
       duration: 1,
       scrollTrigger: {
@@ -24,7 +25,9 @@ export default function SectionThree() {
     });
 
     gsap.to(".wrapper-2", {
-      x: "-60%",
+      x: "-80%",
+      duration: 30,
+
       ease: "power1.inOut",
       duration: 1,
       scrollTrigger: {
@@ -39,7 +42,7 @@ export default function SectionThree() {
   }, []);
 
   return (
-    <div className="w-screen relative overflow-hidden h-full">
+    <div className="w-screen relative overflow-hidden h-full transition-all duration-700">
       <div className="wrapper-trigger flex flex-col max-w-screen mt-[10rem] mb-[64px] gap-[16px]">
         <div className="wrapper-1 inline-flex flex-row-reverse flex-nowrap max-w-screen items-center gap-[32px]">
           <img
