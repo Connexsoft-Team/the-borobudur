@@ -78,8 +78,80 @@ export default function SectionThree() {
             className="w-[259px] h-[122px] object-cover rounded-[16px] border-white border"
           />
           <span className="text-white text-[96px] font-bold">ART</span>
+          <img
+            src={borobudur}
+            alt="none"
+            className="w-[259px] h-[122px] object-cover border-white border rounded-[16px]"
+          />
+          <span className="stroke-text">ARCHITECTURE</span>
+          <img
+            src={komang}
+            alt="none"
+            className="w-[259px] h-[122px] object-cover rounded-[16px] border-white border"
+          />
+          <span className="text-white text-[96px] font-bold">CULTURES</span>
+          <img
+            src={ukiran}
+            alt="none"
+            className="w-[259px] h-[122px] object-cover rounded-[16px] border-white border"
+          />
+          <span className="text-white text-[96px] font-bold">ART</span>
+          <img
+            src={borobudur}
+            alt="none"
+            className="w-[259px] h-[122px] object-cover border-white border rounded-[16px]"
+          />
+          <span className="stroke-text">ARCHITECTURE</span>
+          <img
+            src={komang}
+            alt="none"
+            className="w-[259px] h-[122px] object-cover rounded-[16px] border-white border"
+          />
+          <span className="text-white text-[96px] font-bold">CULTURES</span>
+          <img
+            src={ukiran}
+            alt="none"
+            className="w-[259px] h-[122px] object-cover rounded-[16px] border-white border"
+          />
+          <span className="text-white text-[96px] font-bold">ART</span>
         </div>
         <div className="wrapper-2 inline-flex flex-nowrap max-w-screen items-center gap-[32px] lg:-ml-0 -ml-[220px]">
+          <img
+            src={ukiran}
+            alt="none"
+            className="w-[259px] h-[122px] object-cover rounded-[16px] border-white border"
+          />
+          <span className="text-white text-[96px] font-bold">ART</span>
+          <img
+            src={borobudur}
+            alt="none"
+            className="w-[259px] h-[122px] object-cover border-white border rounded-[16px]"
+          />
+          <span className="stroke-text">ARCHITECTURE</span>
+          <img
+            src={komang}
+            alt="none"
+            className="w-[259px] h-[122px] object-cover rounded-[16px] border-white border"
+          />
+          <span className="text-white text-[96px] font-bold">CULTURES</span>
+          <img
+            src={ukiran}
+            alt="none"
+            className="w-[259px] h-[122px] object-cover rounded-[16px] border-white border"
+          />
+          <span className="text-white text-[96px] font-bold">ART</span>
+          <img
+            src={borobudur}
+            alt="none"
+            className="w-[259px] h-[122px] object-cover border-white border rounded-[16px]"
+          />
+          <span className="stroke-text">ARCHITECTURE</span>
+          <img
+            src={komang}
+            alt="none"
+            className="w-[259px] h-[122px] object-cover rounded-[16px] border-white border"
+          />
+          <span className="text-white text-[96px] font-bold">CULTURES</span>
           <img
             src={ukiran}
             alt="none"

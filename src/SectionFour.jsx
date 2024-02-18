@@ -101,12 +101,67 @@ export default function SectionFour() {
             className="object-cover w-full h-[453px]"
           />
           <img
+            src={image5}
+            alt="image 2"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
+            src={image4}
+            alt="image 2"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
+            src={image2}
+            alt="image 2"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
+            src={image4}
+            alt="image 2"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
+            src={image2}
+            alt="image 2"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
+            src={image5}
+            alt="image 2"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
+            src={image4}
+            alt="image 2"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
             src={image2}
             alt="image 2"
             className="object-cover w-full h-[453px]"
           />
         </div>
         <div className="wrapper-5 flex flex-row-reverse gap-[10px]">
+          <img
+            src={image1}
+            alt="image 2"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
+            src={image7}
+            alt="image 3"
+            className="object-cover w-full h-[453px] lg:block hidden"
+          />
+          <img
+            src={image6}
+            alt="image 3"
+            className="object-cover w-full h-[453px] lg:block hidden"
+          />
+          <img
+            src={image4}
+            alt="image 3"
+            className="object-cover w-full h-[453px] lg:block hidden"
+          />
           <img
             src={image1}
             alt="image 2"
@@ -180,8 +235,53 @@ export default function SectionFour() {
             className="object-cover w-full h-[453px]"
           />
           <img
+            src={image3}
+            alt="image 2"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
+            src={image6}
+            alt="image 2"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
+            src={image7}
+            alt="image 1"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
             src={image4}
             alt="image 1"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
+            src={image3}
+            alt="image 2"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
+            src={image6}
+            alt="image 2"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
+            src={image4}
+            alt="image 1"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
+            src={image3}
+            alt="image 2"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
+            src={image6}
+            alt="image 2"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
+            src={image7}
+            alt="image 2"
             className="object-cover w-full h-[453px]"
           />
           <img
