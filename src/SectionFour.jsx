@@ -15,30 +15,36 @@ export default function SectionFour() {
     gsap.registerPlugin(ScrollTrigger);
     gsap.to(".wrapper-4", {
       x: "-100%",
+      ease: "power1.inOut",
+      duration: 0.5,
       scrollTrigger: {
         trigger: ".wrapper-trig",
         start: "top center",
         end: "bottom center",
-        scrub: 0.3,
+        scrub: 0.1,
       },
     });
 
     gsap.to(".wrapper-5", {
       x: "100%",
+      ease: "power1.inOut",
+      duration: 1,
       scrollTrigger: {
         trigger: ".wrapper-trig",
         start: "top center",
         end: "bottom center",
-        scrub: 0.3,
+        scrub: 0.1,
       },
     });
     gsap.to(".wrapper-6", {
       x: "-120%",
+      ease: "power1.inOut",
+      duration: 1,
       scrollTrigger: {
         trigger: ".wrap-t",
         start: "top center",
         end: "bottom center",
-        scrub: 0.3,
+        scrub: 0.1,
       },
     });
   }, []);
@@ -84,9 +90,79 @@ export default function SectionFour() {
             alt="image 2"
             className="object-cover w-full h-[453px]"
           />
+          <img
+            src={image5}
+            alt="image 2"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
+            src={image4}
+            alt="image 2"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
+            src={image5}
+            alt="image 2"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
+            src={image4}
+            alt="image 2"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
+            src={image2}
+            alt="image 2"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
+            src={image4}
+            alt="image 2"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
+            src={image2}
+            alt="image 2"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
+            src={image5}
+            alt="image 2"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
+            src={image4}
+            alt="image 2"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
+            src={image2}
+            alt="image 2"
+            className="object-cover w-full h-[453px]"
+          />
         </div>
         <div className="wrapper-5 flex flex-row-reverse gap-[10px]">
-        <img
+          <img
+            src={image1}
+            alt="image 2"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
+            src={image7}
+            alt="image 3"
+            className="object-cover w-full h-[453px] lg:block hidden"
+          />
+          <img
+            src={image6}
+            alt="image 3"
+            className="object-cover w-full h-[453px] lg:block hidden"
+          />
+          <img
+            src={image4}
+            alt="image 3"
+            className="object-cover w-full h-[453px] lg:block hidden"
+          />
+          <img
             src={image1}
             alt="image 2"
             className="object-cover w-full h-[453px]"
@@ -143,7 +219,22 @@ export default function SectionFour() {
           />
         </div>
         <div className="wrapper-6 flex flex-row gap-[10px]">
-        <img
+          <img
+            src={image3}
+            alt="image 2"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
+            src={image6}
+            alt="image 2"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
+            src={image7}
+            alt="image 1"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
             src={image3}
             alt="image 2"
             className="object-cover w-full h-[453px]"
@@ -161,6 +252,51 @@ export default function SectionFour() {
           <img
             src={image4}
             alt="image 1"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
+            src={image3}
+            alt="image 2"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
+            src={image6}
+            alt="image 2"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
+            src={image4}
+            alt="image 1"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
+            src={image3}
+            alt="image 2"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
+            src={image6}
+            alt="image 2"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
+            src={image7}
+            alt="image 2"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
+            src={image3}
+            alt="image 2"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
+            src={image6}
+            alt="image 2"
+            className="object-cover w-full h-[453px]"
+          />
+          <img
+            src={image7}
+            alt="image 2"
             className="object-cover w-full h-[453px]"
           />
           <img
