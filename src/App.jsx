@@ -16,23 +16,23 @@ function App() {
   const timeline = gsap.timeline()
 
 
-    useEffect(() => {
-        setLoading(true)
-        setTimeout(() => {
-            timeline.from(".app-wrap", {
-              opacity: 0,
-              duration: 1.5
-            })
-            setLoading(false)
-          }, 5000)
+    // useEffect(() => {
+    //     setLoading(true)
+    //     setTimeout(() => {
+    //         timeline.from(".app-wrap", {
+    //           opacity: 0,
+    //           duration: 1.5
+    //         })
+    //         setLoading(false)
+    //       }, 5000)
 
 
-    }, [])
+    // }, [])
 
   return (
     <>
-    {
-      loading ? <Spinner></Spinner> :
+    
+      {/* // loading ? <Spinner></Spinner> : */}
       <ReactLenis root>
         <div className={`app-wrap ${loading ? "opacity-0" : ""}`}>
           <ParallaxSection />
@@ -44,7 +44,7 @@ function App() {
           <Footer />
         </div>
       </ReactLenis>
-      }</>
+      </>
   );
 }
 
