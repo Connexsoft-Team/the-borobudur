@@ -26,8 +26,7 @@ function App() {
       setLoading(false)
     }, 2000)
 
-
-  }, [])
+    }, [])
 
   return (
     <>
